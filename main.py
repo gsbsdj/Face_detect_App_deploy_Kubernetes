@@ -35,7 +35,7 @@ from io import BytesIO
 
 bucket = boto3.resource(
                 "s3",
-                aws_access_key_id="AKIAWF5XPXE4HLMBNOTL",
+                aws_access_key_id="unknown",
                 aws_secret_access_key="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",
             ).Bucket("incognito-cc-prj")
 file_stream = BytesIO()
